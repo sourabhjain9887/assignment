@@ -1,0 +1,78 @@
+.card {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+.header {
+  width: 90%;
+  margin: 2%;
+  padding: 3% 3% 1% 3%;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+.head-name {
+  font-size: 28px;
+  padding-top: 20px;
+  color: blue;
+}
+.head-name-right {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(0, 0, 117);
+}
+
+.head-content {
+  display: flex;
+  justify-content: space-between;
+}
+.addr {
+  width: 40%;
+}
+.submit {
+  padding-top: 20px;
+  padding-right: 40px;
+  font-weight: bold;
+  color: rgb(255, 0, 76);
+}
+.invoice-for {
+  margin: 2% 2% 0% 2%;
+  padding: 3% 3% 0% 3%;
+  font-weight: bold;
+  font-size: 23px;
+}
+.invoice-detail {
+  width: 90%;
+  margin: 0% 2% 2% 2%;
+  padding: 0% 3% 0% 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.det {
+  background-color: rgb(241, 240, 240);
+}
+.pay {
+  padding-left: 11px;
+}
+.inv {
+  padding-left: 33px;
+}
+
+.table {
+  justify-items: center;
+  padding-left: 5%;
+}
+.result {
+  width: 90%;
+  margin: 1%;
+  padding: 1% 2% 1% 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.amount {
+  justify-content: space-between;
+}
